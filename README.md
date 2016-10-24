@@ -1,0 +1,2 @@
+Symfony MIN Edition
+========================

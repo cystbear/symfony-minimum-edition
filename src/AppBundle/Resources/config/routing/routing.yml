@@ -1,0 +1,3 @@
+_app_routing:
+    pattern: /
+    defaults: { _controller: AppBundle:App:index }

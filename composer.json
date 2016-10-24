@@ -1,0 +1,23 @@
+{
+    "name": "cystbear/symfony-minimum-edition",
+    "license": "MIT",
+    "type": "project",
+    "description": "The \"Symfony MIN Edition\" distribution",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/symfony": "2.7.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "branch-alias": {
+            "dev-master": "2.7-dev"
+        }
+    }
+}

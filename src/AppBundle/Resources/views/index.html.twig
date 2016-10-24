@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block head %}
+    <link rel="icon" sizes="16x16" href="{{ asset('favicon.ico') }}" />
+{% endblock %}
+
+{% block title 'App Bundle' %}
+
+{% block body %}
+    <div class="block">
+        {% block content %}
+            <span>Hello World</span>
+        {% endblock %}
+    </div>
+
+{% endblock %}
