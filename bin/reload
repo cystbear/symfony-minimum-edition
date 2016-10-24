@@ -13,7 +13,6 @@ function show_run($text, $command, $canFail = false)
 
 // main
 show_run("Destroying cache dir manually", "rm -rf app/cache/*");
-show_run("Destroying uploads dir manually", "rm -rf web/uploads/*");
 show_run("Creating directories for app kernel", "mkdir -p app/cache/dev app/cache/test app/logs");
 show_run("Warming up dev cache", "php app/console --env=dev cache:clear");
 exit(0);
